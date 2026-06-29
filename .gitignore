@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Generated output (examples / scratch)
+*.pdf
+grid*.json
+prev*.png
+*.skill
+!assets/**
