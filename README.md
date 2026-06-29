@@ -19,8 +19,10 @@
 把仓库直接克隆到 Claude Code 的用户级 skills 目录即可：
 
 ```bash
-git clone https://github.com/fgyg007/pindou-pattern.git ~/.claude/skills/pindou-pattern
+git clone https://github.com/fgyg007/pindou-pattern-skill.git ~/.claude/skills/pindou-pattern
 ```
+
+> 注意：克隆目标目录必须叫 `pindou-pattern`（要和 skill 名一致），仓库名带不带 `-skill` 都不影响。
 
 然后 **重启 Claude Code（或开个新会话）**，让它加载这个新 skill。
 
